@@ -51,6 +51,7 @@ def __represent_none(self, data):
     """
     return self.represent_scalar('tag:yaml.org,2002:null', '')
 
+
 def install():
     # Add all the representers for data types
     yaml.add_constructor('tag:yaml.org,2002:map', __construct_yaml_map_ordered)
