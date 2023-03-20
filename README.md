@@ -1,8 +1,5 @@
 # yaml-bro
-🧩 PyYaml wrapper to provide extra functionality.
-
-#About
-* Allows comments & map-order to be preserved.
+🧩 PyYaml wrapper to preserve comments & map-order.
 
 #Usage
 
